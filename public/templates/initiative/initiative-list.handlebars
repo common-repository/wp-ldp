@@ -1,0 +1,20 @@
+<div class="resources-list initiative-detail-active">
+  <div id="initiatives" class="detail-content">
+    {{#if this}}
+      {{#each this}}
+        <a onclick="displayInitiative('#detail', &quot;{{id}}&quot;,  '#initiative-detail-template')">
+          <div class="initiative-item">
+            <h2>
+              {{foaf:name}}
+            </h2>
+            <p>
+              {{pair:shortDescription}}
+            </p>
+          </div>
+        </a>
+      {{/each}}
+    {{else}}
+      <h4>Aucun projet référencé</h4>
+    {{/if}}
+  </div>
+</div>

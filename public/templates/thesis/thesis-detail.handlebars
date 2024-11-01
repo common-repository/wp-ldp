@@ -1,0 +1,34 @@
+<div class="actor-detail-active">
+  <h1 class="text-center text-uppercase">{{object.foaf:name}}</h1>
+  <div class="detail-content">
+    <h2>Description</h2>
+    <p>{{object.pair:description}}</p>
+
+    <div class="row personal-information">
+      <h2>Informations personnelles</h2>
+      <div class="col-md-3 equal profile-picture">
+        <img height="200" width="200" src="{{object.foaf:img}}" alt="Photo de profil" />
+      </div>
+      <div class="col-md-9 equal information-content">
+        {{#if object.pair:longDescription}}
+          <p>Adresse: {{object.pair:longDescription}}</p>
+        {{/if}}
+
+        {{#if object.pair:wikipedia}}
+          <p>Lien Wikipedia: <a href="{{object.pair:wikipedia}}">{{object.pair:wikipedia}}</a></p>
+        {{/if}}
+
+        {{#if object.dcterms:subject}}
+        <p>Ressources documentaires:
+          <ul>
+            {{#each object.dcterms:subject}}
+              <li><a href="{{'@id'}}">{{ pair:name }}</a></li>
+            {{/each}}
+          </ul>
+        </p>
+        {{/if}}
+
+      </div>
+    </div>
+  </div>
+</div>

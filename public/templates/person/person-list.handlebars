@@ -1,0 +1,23 @@
+<div class="resources-list actor-detail-active">
+  <h1 class="text-uppercase">
+    Liste des personnes
+  </h1>
+  <div id="actors" class="detail-content">
+    {{#if this}}
+      {{#each this}}
+        <a onclick="displayPerson('#detail', &quot;{{id}}&quot;,  '#person-detail-template')">
+          <div class="actor-item">
+            <h2>
+              {{foaf:name}}
+            </h2>
+            <p>
+              {{foaf:description}}
+            </p>
+          </div>
+        </a>
+      {{/each}}
+    {{else}}
+      <h4>Aucun acteur référencé</h4>
+    {{/if}}
+  </div>
+</div>

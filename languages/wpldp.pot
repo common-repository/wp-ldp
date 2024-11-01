@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpldp\n"
+"POT-Creation-Date: 2016-09-20 23:34+0100\n"
+"PO-Revision-Date: 2016-09-20 23:34+0100\n"
+"Last-Translator: Benoît Alessandroni <benoit.alessandroni@gmail.com>\n"
+"Language-Team: Virtual Assembly <contact@assemblee-virtuelle.org>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_x;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wpldp-settings.php:38
+msgid "Project"
+msgstr ""
+
+#: ../wpldp-settings.php:42
+msgid "Initiative"
+msgstr ""
+
+#: ../wpldp-settings.php:46
+msgid "Organization"
+msgstr ""
+
+#: ../wpldp-settings.php:50
+msgid "Group"
+msgstr ""
+
+#: ../wpldp-settings.php:54
+msgid "Document"
+msgstr ""
+
+#: ../wpldp-settings.php:58
+msgid "Good or Service"
+msgstr ""
+
+#: ../wpldp-settings.php:62
+msgid "Artwork"
+msgstr ""
+
+#: ../wpldp-settings.php:66
+msgid "Event"
+msgstr ""
+
+#: ../wpldp-settings.php:70
+msgid "Place"
+msgstr ""
+
+#: ../wpldp-settings.php:74
+msgid "Theme"
+msgstr ""
+
+#: ../wpldp-settings.php:78
+msgid "Thesis"
+msgstr ""
+
+#: ../wpldp-settings.php:82
+msgid "Actor"
+msgstr ""
+
+#: ../wpldp-settings.php:86
+msgid "Idea"
+msgstr ""
+
+#: ../wpldp-settings.php:90 ../wpldp.php:170
+msgid "Resource"
+msgstr ""
+
+#: ../wpldp-settings.php:105
+#, php-format
+msgid "The %1$s object model"
+msgstr ""
+
+#: ../wpldp-settings.php:137
+msgid "The PAIR containers have been initialized, enjoy ;-)"
+msgstr ""
+
+#: ../wpldp-settings.php:155
+msgid "List of all resources of type "
+msgstr ""
+
+#: ../wpldp-settings.php:186 ../wpldp-settings.php:187
+#: ../wpldp-settings.php:199 ../wpldp-settings.php:221
+msgid "WP-LDP Settings"
+msgstr ""
+
+#: ../wpldp-settings.php:223
+msgid "The generals settings of the WP-LDP plugin."
+msgstr ""
+
+#: ../wpldp-settings.php:230
+msgid "WP-LDP Context"
+msgstr ""
+
+#: ../wpldp-settings.php:238
+msgid "Do you want to initialize PAIR containers ?"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:45 ../wpldp-taxonomy.php:47 ../wpldp.php:227
+msgid "Containers"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:46
+msgid "Container"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:48
+msgid "All Items"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:49
+msgid "Parent Item"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:50
+msgid "Parent Item:"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:51
+msgid "New Item Name"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:52
+msgid "Add New Item"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:53
+msgid "Edit Item"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:54
+msgid "Update Item"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:55
+msgid "View Item"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:56
+msgid "Separate items with commas"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:57
+msgid "Add or remove items"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:58
+msgid "Choose from the most used"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:59
+msgid "Popular Items"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:60
+msgid "Search Items"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:61
+msgid "Not Found"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:92 ../wpldp-taxonomy.php:128
+msgid "Rdf:type, if any"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:94 ../wpldp-taxonomy.php:130
+msgid "Rdf:type associated with this container"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:99 ../wpldp-taxonomy.php:135
+msgid "Included fields"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:101 ../wpldp-taxonomy.php:137
+msgid ""
+"The fields from the model whose values you would like to include from the "
+"associated resources in the container, separated by commas"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:106
+msgid "Model"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:108 ../wpldp-taxonomy.php:144
+msgid "The LDP-compatible JSON Model for this container"
+msgstr ""
+
+#: ../wpldp-taxonomy.php:142
+msgid "Model editor mode"
+msgstr ""
+
+#: ../wpldp.php:169
+msgid "Resources"
+msgstr ""
+
+#: ../wpldp.php:171
+msgid "All resources"
+msgstr ""
+
+#: ../wpldp.php:172 ../wpldp.php:179
+msgid "Add a resource"
+msgstr ""
+
+#: ../wpldp.php:173
+msgid "Edit a resource"
+msgstr ""
+
+#: ../wpldp.php:174
+msgid "New resource"
+msgstr ""
+
+#: ../wpldp.php:175
+msgid "See the resource"
+msgstr ""
+
+#: ../wpldp.php:176
+msgid "Search for a resource"
+msgstr ""
+
+#: ../wpldp.php:177
+msgid "No corresponding resource"
+msgstr ""
+
+#: ../wpldp.php:178
+msgid "No corresponding resource in the trash"
+msgstr ""
+
+#: ../wpldp.php:181
+msgid "LDP Resource"
+msgstr ""
+
+#: ../wpldp.php:278
+msgid "Media"
+msgstr ""
+
+#: ../wpldp.php:294
+msgid "If you need to upload a media during your editing, click here."
+msgstr ""
+
+#: ../wpldp.php:562
+msgid "Ecosystem"
+msgstr ""
